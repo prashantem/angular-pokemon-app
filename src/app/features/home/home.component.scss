@@ -1,0 +1,42 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+    
+  }
+
+.flex-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+  
+ .pokeCart{
+  padding: 20px;
+  background: #e7e7e7;
+  border: 1px solid #d4d4d4;
+  float: left;
+  margin: 10px;
+  width: 150px;
+ }
+
+ .pokeCart .name{
+  display: block;
+  width: 100%;
+  text-align: center;
+ }
+ .searchContainer{
+  width: 100%;
+  margin: 10px;
+ }
+ input{
+  padding: 10px;
+ }
+
+ .icon{
+  background: url(../../../assets/icons/bullbasaur.png) center center no-repeat;
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-size: cover;
+  margin: 0 auto 10px auto;
+ }

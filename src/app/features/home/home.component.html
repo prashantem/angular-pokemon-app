@@ -1,0 +1,13 @@
+<div class="container">
+  <form [formGroup]="searchForm">
+    <div class="searchContainer">
+        <input formControlName="search" (keyup)="searchPoke()" placeholder="Search Pokemon">
+    </div>
+  </form>
+    <div class="flex-container">
+      <div class="pokeCart" *ngFor="let poke of pokeList">
+        <span class="icon"></span>
+        <span class="name">{{ poke.name }}</span>
+      </div>
+    </div>
+</div>
